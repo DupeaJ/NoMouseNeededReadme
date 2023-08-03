@@ -14,8 +14,9 @@ const generateREADME = ({
     Credits,
     Features,
 }) =>
-    `# ${ProjectName}
-## Description
+    `<h1 align="center">${ProjectName}</h1>
+    ![badge](https://img.shields.io/badge/License-${license}-blue.svg)
+<h2 aligh="center">Description</h2>
 ${Description}
 ## Table of Contents
 
@@ -24,35 +25,39 @@ ${Description}
 - [Credits](##credits)
 - [License](##license)
 
-## Installation
+<h2 aligh="center"> Installation</h2>
 
 steps required
 ${steps}
 
-## Usage
+<h2 aligh="center">Photos</h2>
+<img src="assets/photos/.PNG" alt="screenshot" width="75%" height="75%">
+
+<h2 aligh="center">Usage</h2>
 ${Usage}
 
-## Credits
+<h2 aligh="center">Credits</h2>
 ${Credits}
 
-## License
+<h2 aligh="center">License</h2>
 refer to repo for licenses
 license is a ${license} license.
 
-## Badges
+<h2 aligh="center">Badges</h2>
 ![badge](https://img.shields.io/badge/License-${license}-blue.svg)
 
-## Features
+<h2 aligh="center">Features</h2>
 ${Features}
 
-## How to Contribute
+<h2 aligh="center"> How to Contribute</h2>
 ${Contributing}
 
-## Tests
+<h2 aligh="center">Tests</h2>
 ${Tests}
 
-## Questions
+<h2 aligh="center">Questions</h2>
 reach my git hub profile at (https://github.com/${Username})
+<br></br>
 If you have additional questions you can reach me at ${Email}
     `;
 
