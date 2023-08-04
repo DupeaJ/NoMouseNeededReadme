@@ -14,8 +14,8 @@ const generateREADME = ({
     Credits,
     Features,
 }) =>
-    `<h1 align="center">${ProjectName}</h1>
-    ![badge](https://img.shields.io/badge/License-${license}-blue.svg)
+`<h1 align="center">${ProjectName}</h1> ![badge](https://img.shields.io/badge/License-${license}-blue.svg)
+
 <h2 aligh="center">Description</h2>
 ${Description}
 ## Table of Contents
@@ -59,7 +59,7 @@ ${Tests}
 reach my git hub profile at (https://github.com/${Username})
 <br></br>
 If you have additional questions you can reach me at ${Email}
-    `;
+`;
 
 inquirer
     .prompt([
