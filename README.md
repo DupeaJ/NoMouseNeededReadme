@@ -34,6 +34,8 @@ With the information you want.
 
 ## Usage
 Initialize node package manager and make sure packages are installed, then run index.js and answer prompts. take the generated ReadMe file and copy into project repository.
+<div align="center">([https://drive.google.com/file/d/1AYwys8wofFHRFCcE3P8mxqAeUMf5viD3/view])</div>
+<p align="center">Demenstration video</p>
 
 ## License
 refer to repo for licenses
