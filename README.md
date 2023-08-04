@@ -23,13 +23,6 @@ It takes user input and inserts it into a template readme for a professional loo
 With the information you want.
 </p>
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Features](#features)
-
 <h2 align="center">Installation</h2>
 
 <p align="center">Available with JavaScript code</p>
@@ -40,7 +33,7 @@ With the information you want.
 <p align="center">Install inquirer version 8.2.4 and init -y</p>
 
 ## Usage
-initialize node package manager and make sure packages are installed, then run index.js and answer prompts. take the generated ReadMe file and copy into project repository.
+Initialize node package manager and make sure packages are installed, then run index.js and answer prompts. take the generated ReadMe file and copy into project repository.
 
 ## License
 refer to repo for licenses
@@ -51,9 +44,9 @@ license is a General MIT license.
 ![badge](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Features
-prompts user input,
-prompts license selection,
-writes file for user,
+<li>prompts user input,</li>
+<li>prompts license selection,</li>
+<li>writes file for user,</li>
 
 ## How to Contribute
 open an issue or push a merge with updates.
